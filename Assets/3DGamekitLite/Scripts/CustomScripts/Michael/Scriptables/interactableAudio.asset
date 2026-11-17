@@ -21,18 +21,18 @@ MonoBehaviour:
     Path: event:/Test
   boxDestroy:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -370188594
+      Data2: 1144059946
+      Data3: -144267380
+      Data4: 2015530812
+    Path: event:/DestroyBox3D
   activateLever:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1421478212
+      Data2: 1198587260
+      Data3: -904508485
+      Data4: -362752395
+    Path: event:/ActivateDoorSwitch
   openDoor:
     Guid:
       Data1: 0

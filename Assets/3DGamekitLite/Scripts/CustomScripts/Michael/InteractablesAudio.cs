@@ -13,6 +13,17 @@ public class InteractablesAudio : ScriptableObject
     {
         RuntimeManager.PlayOneShot(pickupHealth);
     }
+
+    //Declares a method that plays the boxDestroy event sound at the position of the object that was destroyed.
+    //The Transform parameter allows us to get the position of the object in the game world.
+    public void PlayBoxDestroy(Transform objectTransform)
+    {
+        RuntimeManager.PlayOneShot(boxDestroy, objectTransform.position);
+    }
     
+    public void PlayActivateLever(Transform objectTransform)
+    {
+        RuntimeManager.PlayOneShot(activateLever, objectTransform.position);
+    }
     
 }
